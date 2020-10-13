@@ -222,7 +222,7 @@ contract CrowdsaleToken is StandardToken, Configurable, Ownable {
     
 }
 
-contract WorldDefiFinance is CrowdsaleToken {
+contract TestToken is CrowdsaleToken {
     string public constant name = "test tokk";
     string public constant symbol = "TOK";
     uint32 public constant decimals = 18;
